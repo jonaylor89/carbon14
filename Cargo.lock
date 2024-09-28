@@ -161,7 +161,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "428d9aa8fbc0670b7b8d6030a7fadd0f86151cae55e4dbbece15f3780a3dfaf3"
 
 [[package]]
-name = "carbon14"
+name = "carbon_14"
 version = "0.1.0"
 dependencies = [
  "chrono",
