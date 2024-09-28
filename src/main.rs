@@ -1,4 +1,4 @@
-use carbon14::analysis::{fetch_page, Analysis};
+use carbon_14::analysis::{fetch_page, Analysis};
 use chrono::Utc;
 use clap::{command, Parser};
 use color_eyre::Result;
@@ -8,7 +8,6 @@ use reqwest::Client;
 #[command(author, version, about, long_about = None)]
 struct Args {
     /// URL of the page
-    #[arg(short, long)]
     url: String,
 
     /// Author to be included in the report
