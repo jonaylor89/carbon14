@@ -1,0 +1,15 @@
+[package]
+name = "carbon14"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+chrono-tz = "0.10.0"
+clap = { version = "4.5.18", features = ["derive"] }
+color-eyre = "0.6.3"
+colored = "2.1.0"
+reqwest = "0.12.7"
+scraper = "0.20.0"
+tokio = { version = "1.40.0", features = ["macros", "rt"] }
+url = "2.5.2"
