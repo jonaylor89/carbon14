@@ -42,7 +42,7 @@ Carbon14 accepts the target URL and an optional author name.
 The tool prints a simple report in [Pandoc's extended Markdown][2] format which
 can then be redirected to a file (or with `tee`). For example:
 
-    carbon14.py 'https://eforensicsmag.com/extracting-data-damaged-ntfs-drives-andrea-lazzarotto/' > report.md
+    carbon14 'https://eforensicsmag.com/extracting-data-damaged-ntfs-drives-andrea-lazzarotto/' > report.md
 
 Here's a snippet of the output:
 
