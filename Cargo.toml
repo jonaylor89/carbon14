@@ -6,7 +6,7 @@ license = "MIT"
 repository = "https://github.com/jonaylor89/carbon14"
 readme = "README.md"
 keywords = ["osint", "web", "reconnaiance", "carbon14"]
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 
 [dependencies]
