@@ -13,7 +13,7 @@ edition = "2021"
 chrono = "0.4.38"
 chrono-tz = "0.10.0"
 clap = { version = "4.5.18", features = ["derive"] }
-color-eyre = "0.6.3"
+color-eyre = { features = ["track-caller"], default-features = false, version = "0.6.3" }
 colored = "2.1.0"
 reqwest = "0.12.7"
 scraper = "0.20.0"
